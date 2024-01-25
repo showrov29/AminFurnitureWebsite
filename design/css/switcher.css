@@ -1,0 +1,64 @@
+/* ===================================
+    Mainwrapper
+====================================== */
+
+.main-wrapper{ background:#ffffff none repeat scroll 0 0; margin:0 auto; overflow-x:hidden; position:relative; z-index:1; }
+.main-wrapper.wrapper-boxed{ background-color:#ffffff; box-shadow:0 0 10px rgba(0, 0, 0, 0.3); margin:0 auto; max-width:1200px; overflow-x:hidden; position:relative; width:100%; z-index:1; }
+
+/* ===================================
+    Background Pattern
+====================================== */
+
+.bg1{ background:url(../img/pattern/pattren1.jpg) repeat; }
+.bg2{ background:url(../img/pattern/pattren2.jpg) repeat; }
+.bg3{ background:url(../img/pattern/pattren3.jpg) repeat; }
+.bg4{ background:url(../img/pattern/pattren4.jpg) repeat; }
+.bg5{ background:url(../img/pattern/pattren5.jpg) repeat; }
+
+/* ===================================
+    Switcher
+====================================== */
+
+#style-switcher{ left:-260px; position:fixed; top:200px; padding:25px 20px; width:260px; z-index:9999; background:#fff; border-radius:0 0 3px; box-shadow:0px 5px 30px 0 rgba(0, 0, 0, 0.2); -webkit-transition-duration:.7s; transition-duration:.7s; }
+#style-switcher > div{ float:left; width:100%; margin-bottom:16px; }
+#style-switcher > div:last-child{ margin-bottom:0; }
+#style-switcher h2{ color:#232323; font-size:12px; margin:0 0 5px 0; text-align:left; line-height:normal; text-transform:uppercase; }
+#style-switcher ul{ margin:0 0 0 -7px; padding:0; }
+#style-switcher.active{ left:0px; }
+#style-switcher .switcher-setting{ background:#232323; border-radius:0px 3px 3px 0px; display:block; height:40px; position:absolute; right:-40px; top:0; width:40px; }
+#style-switcher .switcher-setting i{ color:#fff; font-size:19px; left:12px; position:absolute; top:10px; }
+
+/* ===================================
+    Layout btn
+====================================== */
+.layout-btn li{ float:left; padding:0 0 0 7px; width:50%; }
+.layout-btn a span{ background-color:#2a2a2a; color:#ffffff; float:left; padding:6px 10px; text-align:center; transition:all 0.4s ease-in-out 0s; width:100%; }
+.layout-btn a span:hover{ opacity:0.7; }
+
+/* ===================================
+    Pattren
+====================================== */
+
+.pattren li{ float:left; height:40px; padding:0 0 0 5px; width:20%; }
+.pattren li a{ border:1px solid #d5d5d5; float:left; width:100%; }
+
+/* ===================================
+    Colors and styles
+====================================== */
+
+.colors{ padding-left:7px; }
+.colors{ list-style:none; margin:0px 0px 10px 0px; overflow:hidden; }
+.colors li{ float:left; margin-bottom:5px; padding-left:5px; text-align:center; width:12.46%; }
+.colors li a{ cursor:pointer; display:block; height:22px; width:22px; }
+.style1{ background:#86bc42; }
+.style2{ background:#03a9f5; }
+.style3{ background:#0073ad; }
+.style4{ background:#47588f; }
+.style5{ background:#fab702; }
+.style6{ background:#d0ad55; }
+.style7{ background:#49c0d0; }
+.style8{ background:#16a086; }
+
+@media screen and (max-width: 767px) { 
+	#style-switcher { display: none; }
+}
