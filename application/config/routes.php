@@ -54,6 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['aboutus'] = 'home/aboutus';
 $route['all-product'] = 'home/allproduct';
+$route['hospitalDesign'] = 'home/hospitalDesign';
 $route['contactus'] = 'home/contactus';
 $route['home/category/(:any)'] = 'home/category/$1';
 $route['home/details/(:any)'] = 'home/details/$1';

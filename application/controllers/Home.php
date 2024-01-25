@@ -55,4 +55,13 @@ class Home extends CI_Controller {
 		$data['details'] = $this->home_model->details($id);
 		$this->load->view('design/details2', $data);
 	}
+
+	public function hospitalDesign()
+	{
+		$data['title'] = "Hospital Design Page";
+		$this->load->view('design/header', $data);
+		$this->load->view('design/hospitalDesign');
+		$this->load->view('design/footer');
+	}
+	
 }

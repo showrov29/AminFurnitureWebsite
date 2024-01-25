@@ -49,7 +49,7 @@
                                     <a href="<?= base_url()?>home/details/<?= $product->id?>" class="product-block">
                                         <img src="<?= base_url()?>assets/upload/product/<?= $product->pic ?>" alt="" style="height: 220px;width: 100%" /></a>
                                     <div class="product-info">
-                                        <a href="<?= base_url()?>home/details/<?= $product->id?>"><?= $product->product_name ?></a>
+                                        <!-- <a href="<?= base_url()?>home/details/<?= $product->id?>"><?= $product->product_name ?></a> -->
                                         <p class="price text-center no-margin">
                                             <!--<span><?= $product->reguler_price ?></span>-->
                                             <?php if ($product->discount_price>0) { ?><span><del>৳<?= $product->reguler_price ?></del></span><?php } else { ?><span><?= $product->reguler_price ?></span><?php } ?>

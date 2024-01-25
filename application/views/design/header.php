@@ -35,6 +35,33 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.0/css/all.css" integrity="sha384-yXyaKVWGB2SyDoYATyErcgoNH1iAnnf8fCXejZM4NYUbhWiGkZoMwh6IoJ4v5ogi" crossorigin="anonymous">
 <!--     <link href="<?= base_url()?>design/css/styles-6.css" rel="stylesheet" id="colors">
  -->
+
+ <style>
+    .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+            transition: display 0.3s ease;
+        }
+
+        .dropdown-content-column {
+            column-count: 2;
+            column-gap: 20px;
+            padding: 15px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+ </style>
  </head>
 <body>
 
@@ -59,7 +86,8 @@
                             <div class="top-bar-info">
                                 <ul>
                                     <li><i class="fas fa-mobile-alt"></i>+880 1777 - 768148</li>
-                                    <li><i class="fas fa-envelope"></i>saddam.storyofidea@gmail.com</li>
+                                    <li><i class="fas fa-envelope"></i><a href="mailto:saddam.storyofidea@gmail.com">saddam.storyofidea@gmail.com</a></li>
+
                                 </ul>
                             </div>
                         </div>
@@ -118,8 +146,27 @@
                                     <ul class="navbar-nav ml-auto" id="nav" style="display: none;">
                                         <li><a href="<?= base_url() ?>"><i class="far fa-home"></i> Home</a></li>
                                        
+
+                                        <li class="dropdown">
+                                            <a href="<?= base_url() ?>all-product"><i class="far fa-cart-plus"></i> All Product</a>
+                                            
+                                            <!-- Dropdown content with two columns -->
+                                            <div class="dropdown-content">
+                                                <div class="dropdown-content-column">
+                                                    <!-- Content for the first column -->
+                                                    <a href="<?= base_url() ?>hospitalDesign">Hospitals</a>
+                                                    <a href="<?= base_url() ?>product-page2">Product Page 2</a>
+                                                </div>
+                                                <div class="dropdown-content-column">
+                                                    <!-- Content for the second column -->
+                                                    <a href="<?= base_url() ?>product-page3">Product Page 3</a>
+                                                    <a href="<?= base_url() ?>product-page4">Product Page 4</a>
+                                                </div>
+                                            </div>
+                                        </li>
+        
                                         <li><a href="<?= base_url('aboutus')?>"><i class="far fa-info"></i> About us</a></li>
-                                        <li><a href="<?= base_url() ?>all-product"><i class="far fa-cart-plus"></i> All Product</a></li>
+                                        <!-- <li><a href="<?= base_url() ?>all-product"><i class="far fa-cart-plus"></i> All Product</a></li> -->
                                         <!--<li><a href="<?= base_url()?>blog"><i class="far fa-pencil-alt"></i> Blog</a></li>-->
                                         <li><a href="<?= base_url()?>contactus"><i class="far fa-paper-plane"></i> Contact Us</a></li>
                                     </ul>
