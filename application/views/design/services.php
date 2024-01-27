@@ -12,6 +12,7 @@
 
                 <div class="row">
                     <div class="col-md-7 col-sm-12">
+                        
                         <h1>All Product List</h1>
                     </div>
                     <div class="col-md-5 col-sm-12">

@@ -154,7 +154,7 @@
                                             <div class="dropdown-content">
                                                 <div class="dropdown-content-column">
                                                     <!-- Content for the first column -->
-                                                    <a href="<?= base_url() ?>hospitalDesign">Hospitals</a>
+                                                    <a href="<?= base_url() ?>hospitals">Hospitals</a>
                                                     <a href="<?= base_url() ?>product-page2">Product Page 2</a>
                                                 </div>
                                                 <div class="dropdown-content-column">
