@@ -51,32 +51,19 @@
                                 foreach ($products as $key => $product)
                                 { 
                                    $id = $product->id;
+                                  
                             ?>
                             <div class="col-xl-3 col-md-6 margin-30px-bottom sm-margin-20px-bottom">
                                 <div class="border">
 
                                     <a href="<?= base_url()?>home/details/<?= $product->id?>" class="product-block">
                                         <img src="<?= base_url()?>assets/upload/product/<?= $product->pic ?>" alt="" style="height: 220px;width: 100%" /></a>
-                                    <div class="product-info">
-                                        <!-- <a href="<?= base_url()?>home/details/<?= $product->id?>"><?= $product->product_name ?></a> -->
-                                        <p class="price text-center no-margin">
-                                            <!--<span><?= $product->reguler_price ?></span>-->
-                                            <?php if ($product->discount_price>0) { ?><span><del>৳<?= $product->reguler_price ?></del></span><?php } else { ?><span><?= $product->reguler_price ?></span><?php } ?>
-                                            <?php if ($product->discount_price>0) { ?><span style="color:red;">৳<?= $product->discount_price ?></span><?php } ?>
-                                            <?php if ($product->discount_percentage!='') { ?><span style="color:orange;"><font size="2"><?= $product->discount_percentage ?> off</font></span><?php } ?>
-                                        </p>
-                                    </div>
-                                    <!--<div class="buttons">
-                                        <a href="javascript:void(0)" class="bg-extra-dark-gray text-white"><i class="fas fa-heart margin-10px-right"></i>Wishlist</a>
-                                        <a href="javascript:void(0)" class="bg-theme text-white"><i class="fas fa-shopping-cart margin-10px-right"></i>Add to Cart</a>
-                                    </div>-->
-
-                                </div>
+                                   
                             </div>
                             <?php } ?>
                         </div>
 
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-12 no-padding sm-padding-15px-lr">
                                 <div class="pagination text-small text-uppercase text-extra-dark-gray">
                                     <ul>
@@ -88,7 +75,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
                     <!-- end right panel section -->

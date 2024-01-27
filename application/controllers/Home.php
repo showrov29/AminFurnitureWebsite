@@ -58,10 +58,19 @@ class Home extends CI_Controller {
 
 	public function services($param = null)
 	{
+		$validCategories = array('hospitals', 'category2', 'category3');
+
+		// Check if $param is in the array of valid categories
+		if (!in_array($param, $validCategories)) {
+			// Redirect to 404 page
+			show_404();
+			return;
+		}
 		$data['title'] = "Hospital Design Page";
 		$data['param'] = $param;
+		$data['products'] = $this->home_model->category($param);
 		$this->load->view('design/header', $data);
-		$this->load->view('design/services');
+		$this->load->view('design/services', $data);
 		$this->load->view('design/footer');
 	}
 	

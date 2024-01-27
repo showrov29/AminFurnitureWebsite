@@ -20,5 +20,8 @@ class Home_model extends CI_Model {
     public function  details($id){
         return $this->db->get_where('product', ['id' => $id])->row();
     }
+    public function category($category){
+        return $this->db->select('*')->from('product')->where('category', $category)->get()->result();
+    }
 // Home Model End
 }
