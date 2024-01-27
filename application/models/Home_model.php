@@ -14,7 +14,7 @@ class Home_model extends CI_Model {
     }  
     public function product_info()
     {
-        $query = $this->db->select('*')->from('product')->where('sts', 1)->order_by('id', 'desc')->get();
+        $query = $this->db->select('*')->from('product')->get();
         return $query->result();
     } 
     public function  details($id){

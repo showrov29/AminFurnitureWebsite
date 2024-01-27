@@ -85,8 +85,8 @@
                         <div class="col-md-9 col-xs-12">
                             <div class="top-bar-info">
                                 <ul>
-                                    <li><i class="fas fa-mobile-alt"></i>+880 1777 - 768148</li>
-                                    <li><i class="fas fa-envelope"></i><a href="mailto:saddam.storyofidea@gmail.com">saddam.storyofidea@gmail.com</a></li>
+                                    <li><i style="color:white" class="fas fa-mobile-alt"></i>+880 1777 - 768148</li>
+                                    <li><i class="fas fa-envelope"></i><a style="color:white" href="mailto:saddam.storyofidea@gmail.com">saddam.storyofidea@gmail.com</a></li>
 
                                 </ul>
                             </div>
