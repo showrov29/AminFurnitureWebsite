@@ -17,42 +17,63 @@
         </section> -->
         <!-- end page title section -->
 
+        <style>
+            .text{
+                font-size: 25px;
+                font-weight: 600;
+                line-height: 1.3;
+                color: #404258;
+            }
+       
+
+        </style>
         <!-- start about section -->
         <section>
             <div class="container">
 
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-10 ">
 
-                        <div class="section-heading left">
-                            <h3>Welcome to our consulting</h3>
+                        <div class="section-heading">
+                            <h3 style="font-weight:semi-bold;font-size:40px;">We’re a interior design company based in Bangladesh.</h3>
                         </div>
 
-                        <p>Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                        <p  style="font-size:15px;" >Amin design studio established on 1993 with a small furniture
+                            factory , now after 30years later we are skilled with lot of
+                            corporate and gov. furniture and interior work.
+                            Now we are established 2 different furniture manufacture
+                            factory/ unit in Dhaka.
+                            In 2012 we create our design studio for making more technical
+                            furniture and Interior Department for full phase interior work.</p>
 
                         <div class="margin-30px-bottom md-margin-25px-bottom xs-margin-20px-bottom">
                             <span>Call us 24/7. We can answer for <strong class="font-weight-600 font-size18 sm-font-size16 xs-font-size15">all your questions.</strong></span>
                         </div>
+
+                        <div>
+                            <h2>OUR AIM</h2>
+                            <p class="text">Skilled Furniture Designers Are Able to Bring Any Inspirational Ideas From Paper to Life</p>
+                        </div>
                         <div class="border-bottom padding-20px-bottom margin-20px-bottom md-padding-15px-bottom md-margin-15px-bottom">
                             <h4 class="display-inline-block font-size18 sm-font-size16 xs-font-size15 margin-20px-right no-margin-bottom">+880 1777 - 768148</h4>
                             <div class="display-inline-block margin-20px-right vertical-align-top"><strong class="font-weight-700 text-theme-color">or</strong></div>
-                            <h4 class="display-inline-block font-size18 sm-font-size16 xs-font-size15 no-margin-bottom"><a href="javascript:void(0)">amindesignstudio@gmail.com</a></h4>
+                            <h4 class="display-inline-block font-size18 sm-font-size16 xs-font-size15 no-margin-bottom"><a href="mailto:amindesignstudio@gmail.com">amindesignstudio@gmail.com</a></h4>
                         </div>
 
                         <div class="text-right float-left width-100">
-                            <p class="float-left text-left no-margin"><span class="font-weight-700 display-block">Jhon Due</span>CEO of company</p>
-                            <div class="float-right xs-width-50 margin-8px-top">
+                            <p class="float-left text-left no-margin"><span class="font-weight-700 display-block">Saddam Hossein</span>CEO of company</p>
+                            <!-- <div class="float-right xs-width-50 margin-8px-top">
                                 <img src="img/content/signature-black.png" alt="" class="vertical-align-top" />
-                            </div>
+                            </div> -->
                         </div>
 
                     </div>
                     <div class="col-lg-6 sm-display-none">
-                        <div class="about-ceo margin-50px-left sm-no-margin-left">
+                        <!-- <div class="about-ceo margin-50px-left sm-no-margin-left">
 
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjmQVfYLUy1CVdFuUI3Z5V0j3jcAoZyu_WJw&usqp=CAU" alt="" style="height: 300px" />
                             <div class="inner-border"></div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
@@ -61,7 +82,7 @@
         <!-- end about section -->
 
         <!-- start team single section -->
-        <section class="bg-light-gray">
+        <!-- <section class="bg-light-gray">
             <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -109,21 +130,21 @@
                         </div>
                     </div>
             </div>
-        </section>
+        </section> -->
         <!-- end team single section -->
 
 
         <!-- start quote -->
-        <div class="bg-theme padding-40px-tb">
+        <!-- <div class="bg-theme padding-40px-tb">
             <div class="container">
                 <!--Row Start-->
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-12 text-center">
                         <h6 class="text-white margin-10px-bottom line-height-40 font-weight-600">Are you looking for quality long live business for your next project?</h6>
                         <a href="javascript:void(0)" class="butn white"><span>Contact With Us</span></a>
                     </div>
-                </div>
+                </div> -->
                 <!--Row End-->
             </div>
-        </div>
+        </div> -->
         <!-- end quote
