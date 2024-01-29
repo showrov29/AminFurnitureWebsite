@@ -11,9 +11,8 @@
                         <div class="margin-25px-top footer-social-icons">
                             <ul>
                                 <li><a href="https://www.facebook.com/aminfurnitureltd" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.youtube.com/@storyofidea5688/featured"><i class="fab fa-youtube"></i></a></li>
+                                
                             </ul>
                         </div>
 

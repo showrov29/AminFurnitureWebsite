@@ -58,7 +58,7 @@ class Home extends CI_Controller {
 
 	public function services($param = null)
 	{
-		$validCategories = array('hospitals', 'category2', 'category3');
+		$validCategories = array('resedential', 'exibition','architectural','hospitality','commercial');
 
 		// Check if $param is in the array of valid categories
 		if (!in_array($param, $validCategories)) {

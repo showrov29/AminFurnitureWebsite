@@ -46,20 +46,23 @@
             display: none;
             position: absolute;
             background-color: #f9f9f9;
-            min-width: 200px;
+            min-width: 180px;
             box-shadow: 0 8px 16px rgba(0,0,0,0.2);
             z-index: 1;
             transition: display 0.3s ease;
         }
 
         .dropdown-content-column {
-            column-count: 2;
-            column-gap: 20px;
-            padding: 15px;
+            /* align-items: center; */
+            padding-left: 10px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
         }
 
         .dropdown:hover .dropdown-content {
-            display: block;
+        display: block;
+            
         }
  </style>
  </head>
@@ -94,8 +97,8 @@
                         <div class="col-xs-12 col-md-3 xs-display-none">
                             <ul class="top-social-icon">
                                 <li><a href="https://www.facebook.com/aminfurnitureltd" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.youtube.com/@storyofidea5688/featured"><i class="fab fa-youtube"></i></a></li>
+                             
                             </ul>
                         </div>
                     </div>
@@ -148,19 +151,18 @@
                                        
 
                                         <li class="dropdown">
-                                            <a href="<?= base_url() ?>all-product"><i class="far fa-cart-plus"></i> All Product</a>
+                                            <a href="<?= base_url() ?>all-product"><i class="far fa-cart-plus"></i> All  Projects</a>
                                             
                                             <!-- Dropdown content with two columns -->
                                             <div class="dropdown-content">
                                                 <div class="dropdown-content-column">
                                                     <!-- Content for the first column -->
-                                                    <a href="<?= base_url() ?>services/hospitals">Hospitals</a>
-                                                    <a href="<?= base_url() ?>services/product-page2">Product Page 2</a>
-                                                </div>
-                                                <div class="dropdown-content-column">
-                                                    <!-- Content for the second column -->
-                                                    <a href="<?= base_url() ?>services/product-page3">Product Page 3</a>
-                                                    <a href="<?= base_url() ?>services/product-page4">Product Page 4</a>
+                                                    <a href="<?= base_url() ?>services/resedential">Residential</a>
+                                                    <a href="<?= base_url() ?>services/exibition">Exibition Space</a>
+                                                    <a href="<?= base_url() ?>services/architectural">Architectural</a>
+                                                    <a href="<?= base_url() ?>services/hospitality">Hospitality Space</a>
+                                                    <a href="<?= base_url() ?>services/commercial">Commercial</a>
+                                                    
                                                 </div>
                                             </div>
                                         </li>
