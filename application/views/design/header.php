@@ -43,26 +43,40 @@
         }
 
         .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 180px;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-            z-index: 1;
-            transition: display 0.3s ease;
+            opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: opacity 0.5s ease, visibility 0.3s ease;
         }
 
         .dropdown-content-column {
             /* align-items: center; */
-            padding-left: 10px;
+            /* padding-left: 10px; */
             display: flex;
             flex-direction: column;
+            font-weight:bold,
             /* justify-content: center; */
         }
 
         .dropdown:hover .dropdown-content {
-        display: block;
+            opacity: 1;
+    visibility: visible;
+    
             
+        }
+        .font{
+            font-size: 13px !important;
+            color: black !important;
+            font-weight: meidum !important;
+        
+        }
+      
+        .font:hover{
+            background-color: #E0CCBE !important;
         }
  </style>
  </head>
@@ -143,25 +157,25 @@
                                         <?php } ?>
                                     </div>
 
-                                    <div class="navbar-toggler"></div>
+                                    
 
                                     <!-- Menu Area -->
                                     <ul class="navbar-nav ml-auto" id="nav" style="display: none;">
                                         <li><a href="<?= base_url() ?>"><i class="far fa-home"></i> Home</a></li>
                                        
 
-                                        <li class="dropdown">
+                                        <li class="dropdown ">
                                             <a href="<?= base_url() ?>all-product"><i class="far fa-cart-plus"></i> All  Projects</a>
                                             
                                             <!-- Dropdown content with two columns -->
-                                            <div class="dropdown-content">
-                                                <div class="dropdown-content-column">
+                                            <div class="dropdown-content ">
+                                                <div class="dropdown-content-column ">
                                                     <!-- Content for the first column -->
-                                                    <a href="<?= base_url() ?>services/resedential">Residential</a>
-                                                    <a href="<?= base_url() ?>services/exibition">Exibition Space</a>
-                                                    <a href="<?= base_url() ?>services/architectural">Architectural</a>
-                                                    <a href="<?= base_url() ?>services/hospitality">Hospitality Space</a>
-                                                    <a href="<?= base_url() ?>services/commercial">Commercial</a>
+                                                    <a class="dropdown-item font" href="<?= base_url() ?>services/resedential">Residential</a>
+                                                    <a class="dropdown-item font" href="<?= base_url() ?>services/exibition">Exibition Space</a>
+                                                    <a class="dropdown-item font" href="<?= base_url() ?>services/architectural">Architectural</a>
+                                                    <a class="dropdown-item font" href="<?= base_url() ?>services/hospitality">Hospitality Space</a>
+                                                    <a  class="dropdown-item font" href="<?= base_url() ?>services/commercial">Commercial</a>
                                                     
                                                 </div>
                                             </div>

@@ -14,11 +14,12 @@
                     <div class="col-md-7 col-sm-12">
                         
                         <h1>All Product List</h1>
+                     
                     </div>
                     <div class="col-md-5 col-sm-12">
                         <ul class="text-right xs-text-left sm-margin-8px-top xs-margin-5px-top">
                             <li><a href="<?= base_url()?>">Home</a></li>
-                            <li><a href="javascript:void(0)">All Product List</a></li>
+                            <li><a href="javascript:void(0)">All <?php echo $param ?> List</a></li>
                         </ul>
                     </div>
                 </div>

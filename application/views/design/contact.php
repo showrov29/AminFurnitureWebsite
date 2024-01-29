@@ -59,7 +59,7 @@
                     <!-- start map section -->
                     <div class="col-md-10">
                     <div class="border" id="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d228.126780317292!2d90.4213683!3d23.8175861!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c76a2e04ce85%3A0x943a925b96ed3486!2z4KaG4Kau4Ka_4KaoIOCmq-CmvuCmsOCnjeCmqOCmv-CmmuCmvuCmsCDgpqHgpr_gppzgpr7gpofgpqgg4Ka34KeN4Kaf4KeB4Kah4Ka_4KaT!5e0!3m2!1sen!2sbd!4v1706545497252!5m2!1sen!2sbd" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d228.126780317292!2d90.4213683!3d23.8175861!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c76a2e04ce85%3A0x943a925b96ed3486!2z4KaG4Kau4Ka_4KaoIOCmq-CmvuCmsOCnjeCmqOCmv-CmmuCmvuCmsCDgpqHgpr_gppzgpr7gpofgpqgg4Ka34KeN4Kaf4KeB4Kah4Ka_4KaT!5e0!3m2!1sen!2sbd!4v1706547584239!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                         </div>
                     </div>
