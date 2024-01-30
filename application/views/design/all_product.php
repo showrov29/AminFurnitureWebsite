@@ -41,22 +41,20 @@
                             <?php 
                                 foreach ($products as $key => $product)
                                 { 
-                                   $id = $product->id;
+                                       
                             ?>
                             <div class="col-xl-3 col-md-6 margin-30px-bottom sm-margin-20px-bottom">
                                 <div class="border">
 
-                                    <a href="<?= base_url()?>home/details/<?= $product->id?>" class="product-block">
-                                        <img src="<?= base_url()?>assets/upload/product/<?= $product->pic ?>" alt="" style="height: 220px;width: 100%" /></a>
+                                    <a href="<?= base_url()?>home/services/<?= $product->category ?>/<?php echo $product->project ?>" class="product-block">
+                                        <img src="https://picsum.photos/200/300" alt="" style="height: 220px;width: 100%" />
                                     <div class="product-info">
-                                        <!-- <a href="<?= base_url()?>home/details/<?= $product->id?>"><?= $product->product_name ?></a> -->
+                                        
                                         <p class="price text-center no-margin">
-                                            <!--<span><?= $product->reguler_price ?></span>-->
-                                            <?php if ($product->discount_price>0) { ?><span><del>৳<?= $product->reguler_price ?></del></span><?php } else { ?><span><?= $product->reguler_price ?></span><?php } ?>
-                                            <?php if ($product->discount_price>0) { ?><span style="color:red;">৳<?= $product->discount_price ?></span><?php } ?>
-                                            <?php if ($product->discount_percentage!='') { ?><span style="color:orange;"><font size="2"><?= $product->discount_percentage ?> off</font></span><?php } ?>
+                                            <?php echo $product->project ?>
                                         </p>
                                     </div>
+                                    </a>
                                     <!--<div class="buttons">
                                         <a href="javascript:void(0)" class="bg-extra-dark-gray text-white"><i class="fas fa-heart margin-10px-right"></i>Wishlist</a>
                                         <a href="javascript:void(0)" class="bg-theme text-white"><i class="fas fa-shopping-cart margin-10px-right"></i>Add to Cart</a>
@@ -67,19 +65,7 @@
                             <?php } ?>
                         </div>
 
-                        <div class="row">
-                            <div class="col-12 no-padding sm-padding-15px-lr">
-                                <div class="pagination text-small text-uppercase text-extra-dark-gray">
-                                    <ul>
-                                        <li><a href="javascript:void(0);"><i class="fas fa-long-arrow-alt-left margin-5px-right xs-display-none"></i> Prev</a></li>
-                                        <li class="active"><a href="javascript:void(0);">1</a></li>
-                                        <li><a href="javascript:void(0);">2</a></li>
-                                        <li><a href="javascript:void(0);">3</a></li>
-                                        <li><a href="javascript:void(0);">Next <i class="fas fa-long-arrow-alt-right margin-5px-left xs-display-none"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                    
 
                     </div>
                     <!-- end right panel section -->

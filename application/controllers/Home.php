@@ -37,7 +37,8 @@ class Home extends CI_Controller {
 	public function allproduct()
 	{
 		$data['title'] = "All Product Page";
-		$data['products'] = $this->home_model->product_info();
+		$data['products'] = $this->home_model->category();
+
 		$this->load->view('design/header', $data);
 		$this->load->view('design/all_product');
 		$this->load->view('design/footer');
@@ -56,22 +57,28 @@ class Home extends CI_Controller {
 		$this->load->view('design/details2', $data);
 	}
 
-	public function services($param = null)
+	public function services($param1,$param2 = null)
 	{
 		$validCategories = array('resedential', 'exibition','architectural','hospitality','commercial');
 
 		// Check if $param is in the array of valid categories
-		if (!in_array($param, $validCategories)) {
+		if (!in_array($param1, $validCategories)) {
 			// Redirect to 404 page
 			show_404();
 			return;
 		}
-		$data['title'] = "Hospital Design Page";
-		$data['param'] = $param;
-		$data['products'] = $this->home_model->category($param);
-		$this->load->view('design/header', $data);
-		$this->load->view('design/services', $data);
-		$this->load->view('design/footer');
+
+		
+			$data['title'] = "Projects";
+			$data['param'] = $param1;
+			$data['projects'] = $this->home_model->category_projects($param1);
+			$this->load->view('design/header', $data);
+			$this->load->view('design/services', $data);
+			$this->load->view('design/footer');
+		
+
+		
+
 	}
 	
 }

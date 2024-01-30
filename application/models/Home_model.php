@@ -20,8 +20,18 @@ class Home_model extends CI_Model {
     public function  details($id){
         return $this->db->get_where('product', ['id' => $id])->row();
     }
-    public function category($category){
-        return $this->db->select('*')->from('product')->where('category', $category)->get()->result();
+    public function category(){
+         
+       return $result = $this->db->distinct()->select('*')->from('product')->get()->result();   
+    }
+
+    public function category_projects($category){
+         
+       return $result = $this->db->select('*')->from('product')->where('category',$category)->get()->result();   
+    }
+    public function project($category,$project){
+         
+       return $result = $this->db->select('*')->from('product')->where('category',$category)->where('project',$project)->get()->result();   
     }
 // Home Model End
 }

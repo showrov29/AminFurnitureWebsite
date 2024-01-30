@@ -7,7 +7,13 @@
 
                         <!-- <img alt="footer-logo" src="design/img/logos/logo-footer.png"> -->
                         <h3 class="text-white">Amin Design Studio</h3>
-                        <p class="margin-20px-top">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam doloribus, error hic id ullam dolorum iste ipsam atque unde voluptatem.</p>
+                        <p class="margin-20px-top">Amin design studio established on 1993 with a small furniture
+                            factory , now after 30years later we are skilled with lot of
+                            corporate and gov. furniture and interior work.
+                            Now we are established 2 different furniture manufacture
+                            factory/ unit in Dhaka.
+                            In 2012 we create our design studio for making more technical
+                            furniture and Interior Department for full phase interior work.</p>
                         <div class="margin-25px-top footer-social-icons">
                             <ul>
                                 <li><a href="https://www.facebook.com/aminfurnitureltd" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
