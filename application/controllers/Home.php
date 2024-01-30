@@ -74,11 +74,27 @@ class Home extends CI_Controller {
 			$data['projects'] = $this->home_model->category_projects($param1);
 			$this->load->view('design/header', $data);
 			$this->load->view('design/services', $data);
-			$this->load->view('design/footer');
-		
+			$this->load->view('design/footer');	
+	}
+
+	public function project($param1,$param2)
+	{
+		$validCategories = array('resedential', 'exibition','architectural','hospitality','commercial');
+
+		// Check if $param is in the array of valid categories
+		if (!in_array($param1, $validCategories)) {
+			// Redirect to 404 page
+			show_404();
+			return;
+		}
 
 		
-
+			$data['title'] = "Projects";
+			$data['param'] = $param1;
+			$data['projects'] = $this->home_model->project($param1,$param2);
+			$this->load->view('design/header', $data);
+			$this->load->view('design/project', $data);
+			$this->load->view('design/footer');	
 	}
 	
 }

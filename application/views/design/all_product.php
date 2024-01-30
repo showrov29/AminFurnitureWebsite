@@ -46,7 +46,7 @@
                             <div class="col-xl-3 col-md-6 margin-30px-bottom sm-margin-20px-bottom">
                                 <div class="border">
 
-                                    <a href="<?= base_url()?>home/services/<?= $product->category ?>/<?php echo $product->project ?>" class="product-block">
+                                    <a href="<?= base_url()?>services/<?= $product->category ?>/<?php echo $product->project ?>" class="product-block">
                                         <img src="https://picsum.photos/200/300" alt="" style="height: 220px;width: 100%" />
                                     <div class="product-info">
                                         
